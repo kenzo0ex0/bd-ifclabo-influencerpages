@@ -1,0 +1,682 @@
+/*PC版CSS*/
+@media screen and (min-width:768px){
+    
+
+/*header*/
+header{
+    position:relative;
+    height: 50vh;
+    background: url(Group_1.png) center / cover;
+    background-color:#565656;
+}
+
+#a{ 
+    font-size:50px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin: auto;
+}
+
+
+/*main*/
+
+/*メインの背景色*/
+
+.b{
+    background-color:#565656;
+}
+
+/*ジョリーと清水とは？*/
+
+#ba{
+    display: block;
+    margin: auto;
+    padding: 30px;
+    padding-top: 100px;
+
+}
+
+/*ジョリーと清水の画像と紹介文*/
+
+#bb{
+    display: block;
+    margin: auto;
+    width: 514px;
+    height: 543px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#bc{
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    color: #272727;
+    font-size: 19px;
+    width: 514px;
+    height: 462px;
+    background-color: #e7e7e7;
+    padding-top: 50px;
+    margin-left: 0;
+    display: grid;
+    place-items: center center;
+    line-height: 1.8;
+
+}
+
+.bbc{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/*ジョリーとは？*/
+
+#bd{
+    display: block;
+    margin: auto;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+/*ジョリーとは？PC版　画像と紹介文*/
+
+#be{
+    margin: auto;
+    width: 629px;
+    height: 418px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.befpc1{
+    background-color: #e7e7e7;
+    width: 459px;
+    height: 418px;
+    margin: auto;
+    margin-right: 0px;
+}
+
+.befpc{
+    display: flex;
+}
+
+/*ジョリーSNS*/
+
+#befspsnstiktoklogo{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+#befspsnsyoutubelogo{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-left: 10px;    
+}
+
+#befspsnsinstagramlogo{
+    width: 50px;
+    height: 50px; 
+    margin: auto;
+    margin-left: 10px;   
+}
+
+#befspsnstwitterlogo{
+    width: 50px;
+    height: 50px;
+    margin: auto; 
+    margin-left: 10px;   
+}
+
+.besns{
+    display: flex;
+    justify-content: center;
+}
+
+.jollysnsinfo{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.bfinfo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.bfinfo tr th {
+    text-align: left;
+}
+
+.bfinfo tr td{
+    text-align: left;
+}
+
+/*ジョリーとは？SP版削除用*/
+.befsp{
+    display: none;
+}
+
+/*ジョリーとは？PC版　画像とコメント*/
+
+
+
+#bg{
+    display: block;
+    margin: auto;
+    width: 595px;
+    height: 435px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#bh{
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    color: #272727;
+    font-size: 16px;
+    width: 433px;
+    height: 355px;
+    background-color: #e7e7e7;
+    padding-top: 50px;
+    margin-left: 0;
+    display: grid;
+    place-items: center center;
+    line-height: 1.8;
+}
+
+.bgh{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+/*清水とは？*/
+
+#bi{
+    display: block;
+    margin: auto;
+    padding: 30px;
+    margin-top: 150px;
+}
+
+/*清水とは？PC版　画像と紹介文*/
+
+#bj{
+    margin: auto;
+    width: 630px;
+    height: 702px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.bjkpc1{
+    background-color: #e7e7e7;
+    width: 458px;
+    height: 702px;
+    margin: auto;
+    margin-right: 0px;
+}
+
+.bjkpc{
+    display: flex;
+}
+
+/*清水SNS*/
+
+#bjlspsnstiktoklogo{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+#bjlspsnsyoutubelogo{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-left: 10px;
+}
+
+#bjlspsnsinstagramlogo{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-left: 10px;
+}
+
+#bjlspsnstwitterlogo{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.bksns{
+    display: flex;
+    justify-content: center;
+}
+
+.shimizusnsinfo{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+
+.bkinfo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.bkinfo tr th{
+    text-align: left;
+}
+
+.bkinf tr td{
+    text-align: left;
+}
+
+/*清水とは？SP版削除用*/
+
+.bjksp{
+    display: none;
+}
+
+/*清水とは？PC版　画像とコメント*/
+
+#bl{
+    display: block;
+    margin: auto;
+    width: 593px;
+    height: 747px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#bm{
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    color: #272727;
+    font-size: 19px;
+    width: 435px;
+    height: 667px;
+    background-color: #e7e7e7;
+    padding-top: 50px;
+    margin-left: 0;
+    display: grid;
+    place-items: center center;
+    line-height: 1.8;
+}
+
+.blm{
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+#bn{
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    padding-top: 55px;
+    font-size: 19px;
+    color: #272727;
+    background-color: #e7e7e7;
+    height: 30%;
+    width: 30%;
+}
+
+#bo{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border: 10px solid #e7e7e7;
+    height: 30%;
+    width: 30%;
+}
+
+#bno{
+    padding: 20px;
+    padding-bottom: 50px;
+    margin-top: 200px;
+}
+
+
+footer{
+    position: relative;
+    height: 37vh;
+    background: url(Group_1.png)center / cover;
+    margin-bottom: 0%;
+}
+
+#ca{
+    font-size: 30px;
+    text-align: center;
+    padding: 100px;
+    margin: auto;
+}
+
+}
+
+
+/*スマホ版CSS*/
+@media screen and (max-width:768px){
+
+/*header*/
+header{
+    position: relative;
+    height: 37vh;
+    background: url(Group_1.png)center / cover;
+    margin-bottom:0;
+}
+
+#a{ 
+    font-size:30px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    margin: auto;
+}
+
+/*main*/
+.b{
+    background-color:#565656;
+}
+
+
+/*ジョリーと清水の紹介*/
+#ba{
+    display: block;
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+}
+
+#bb{
+    display: block;
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+}
+
+#bc{
+    text-align: center;
+    margin: auto;
+    padding: 30px 90px;
+    color: #fff;
+    font-size: 15px;
+}
+
+/*ジョリーの紹介*/
+
+#bd{
+    display: block;
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+}
+
+/*ジョリーの画像と紹介文SP用*/
+
+#be{
+    display: block;
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+}
+
+.bf{
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-size: 15px;
+}
+
+.bf tr th{
+    text-align: left
+};
+
+.bf tr td {
+    text-align: left;
+}
+
+#befspsnstiktoklogo{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-left: 15px;
+}
+
+#befspsnsyoutubelogo{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-left: 10px;
+}
+
+#befspsnsinstagramlogo{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-left: 10px;
+}
+
+#befspsnstwitterlogo{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.besns{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.jollysnsinfo{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+
+/*ジョリーの画像と紹介文PC版削除用*/
+
+.befpc{
+    display: none;
+}
+
+/*ジョリーの画像とコメント*/
+
+#bg{
+    display: block;
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+}
+
+#bh{
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    color: #fff;
+    font-size: 15px;
+}
+
+/*清水の紹介*/
+
+#bi{
+    display: block;
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+}
+
+#bj{
+    display: block;
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+}
+
+.bk{
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-size: 15px;
+}
+
+.bk tr th{
+    text-align: left;
+}
+
+.bk tr td{
+    text-align: left;
+}
+
+#bjlspsnstiktoklogo{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-left: 15px;
+}
+
+#bjlspsnsyoutubelogo{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-left: 10px;
+}
+
+#bjlspsnsinstagramlogo{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-left: 10px;
+}
+
+#bjlspsnstwitterlogo{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-left: 10px;
+}
+
+
+
+.bksns{
+    width:50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.shimizusnsinfo{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+/*清水の画像と紹介文PC版削除用*/
+
+.bjkpc{
+    display: none;
+}
+
+#bl{
+    display: block;
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+}
+
+#bm{
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    color: #fff;
+    font-size: 15px;
+}
+
+#bn{
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#bo{
+    display: block;
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+}
+
+#bno{
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+
+footer{
+    position: relative;
+    height: 37vh;
+    background: url(Group_1.png)center / cover;
+    margin-bottom: 0%;
+}
+
+#ca{
+    font-size: 30px;
+    text-align: center;
+    padding: 100px;
+    margin: auto;
+}
+
+}
+
+/*トップへ戻るボタン*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+#ca a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+}
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+}
